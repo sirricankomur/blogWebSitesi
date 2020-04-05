@@ -1,0 +1,772 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600&display=swap');
+html{
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    color: ghostwhite;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    color: ghostwhite;
+}
+
+/* NAVBAR*/
+.nav{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: .4rem;
+    background: rgba(0,0,0,.8)!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    color: white;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #007bff;
+}
+
+.navbar-baslik {
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    color: white;
+
+}
+
+/* Resim */
+#anasayfa {
+    background: url("../img/hakkindaArkaplan.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+#giris-sayfasi {
+    background: url("../img/girisArkaplan.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+#giris-basarili {
+    background: url("../img/hosgeldinizArkaplan.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+#iletisim-form-tasarim {
+    background: url("../img/girisArkaplan.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 110%;
+    color: white;
+}
+#cikis-sayfasi {
+    background: url("../img/cikisArkaplan.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#nemrut-sayfasi {
+    background: url("../img/nemrutH1.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#perre-sayfasi {
+    background: url("../img/perreA2.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#arsemia-sayfasi {
+    background: url("../img/arsemia.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#kahta-kalesi-sayfasi {
+    background: url("../img/kahtaKalesi1.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#cendere-sayfasi {
+    background: url("../img/cendere1.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#karakus-tumulusu-sayfasi {
+    background: url("../img/karakus.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+#kaya-mezarlari-sayfasi {
+    background: url("../img/haydaran.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+#adiyamanin_nufusu-sayfasi {
+    background: url("../img/adiyaman.jpg") no-repeat 50% 50%;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+/***********************/
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+/***********************/
+
+.card-resim{
+    height: 240px;
+}
+
+.hosgeldiniz{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.iletisim-form{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.giris-yazi-tipi{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+    color: black;
+}
+
+h3.yazilar-baslik{
+    font-family: 'Teko', sans-serif;
+    font-size: 600%;
+    line-height: .8;
+    font-weight: 400;
+    color: black;
+    padding-top: 2rem;
+    text-align: center;
+}
+h3.yazilar-alt-baslik{
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 400;
+    color: black;
+    padding-top: 2rem;
+    text-align: center;
+}
+.btn-giris{
+    font-family: 'Inria Serif', serif;
+    background-color: transparent;
+    border: 2px solid #0c9600;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 120%;
+}
+.btn-giris:hover{
+    color: #FFF;
+    background-color: #0c9600;
+}
+.btn-navbar {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 2px solid #0c9600;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 120%;
+}
+.btn-navbar:hover {
+    color: #FFF;
+    background-color: #0c9600;
+}
+.btn-slide {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 3px solid #26336f;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 140%;
+}
+
+.btn-slide:hover {
+    color: #FFF;
+    background-color: #26336f;
+}
+
+.btn-slide2 {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 3px solid #60322a;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 140%;
+}
+
+.btn-slide2:hover {
+    color: #FFF;
+    background-color: #60322a;
+}
+
+.btn-slide3 {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 3px solid #37100a;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 140%;
+}
+
+.btn-slide3:hover {
+    color: #FFF;
+    background-color: #37100a;
+}
+.btn-slide4 {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 3px solid #1b2442;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 140%;
+}
+
+.btn-slide4:hover {
+    color: #FFF;
+    background-color: #1b2442;
+}
+.btn-card {
+    font-family: 'Playfair Display', serif;
+    background-color: #264289;
+    border: 2px solid #264289;
+    border-radius: 3px ;
+    color: white;
+    font-size: 100%;
+}
+
+.btn-card:hover {
+    color: #FFF;
+    background-color: #1a2d5d;
+    border: 2px solid #1a2d5d;
+}
+
+.btn-gonder {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #00339b;
+    border: 2px solid #00339b;
+    border-radius: 3px ;
+    color: white;
+    font-size: 110%;
+}
+
+.btn-gonder:hover {
+    color: #FFF;
+    background-color: #002a87;
+    border: 2px solid #002a87;
+}
+.btn-temizle {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #009b02;
+    border: 2px solid #009b02;
+    border-radius: 3px ;
+    color: #FFF;
+    font-size: 110%;
+}
+
+.btn-temizle:hover {
+    color: #FFF;
+    background-color: #008702;
+    border: 2px solid #008702;
+
+}
+div{
+    padding-top: 0.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0;
+}
+
+div.slide-ekrani{
+    padding: 0;
+}
+
+div.slide-ekrani{
+    padding: 0;
+}
+div.mirasimiz-yazilar{
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+}
+.hoscakalin {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+div.iletisim-alani{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+div.basarili{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+div.iletisim{
+    padding: 0;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+p.iletisim-soz{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 110%;
+    font-weight: bold;
+    color: #ffffff;
+}
+p.iletisim-bilgisi{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mirasimiz-soz{
+    padding-top: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 180%;
+    font-weight: bolder;
+    color: white;
+}
+h1.mirasimiz-baslik {
+    font-family: 'Teko', sans-serif;
+    font-size: 900%;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+}
+
+h1.mirasimiz-yazilar-baslik {
+    padding-top: 2rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 500;
+    text-align: center;
+    color: #1c293f;
+}
+
+hr.mirasimiz-yazilar-cizgi{
+    width: 100%;
+    border-top: 0.1rem solid #1c293f;
+}
+
+.liste-yazi-tipi {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120%;
+    font-weight: bolder;
+
+    color: black;
+}
+
+.tablo-tazi-tipi{
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+    font-weight: lighter;
+    color: white;
+
+}
+
+.tablo-elemanlari-tazi-tipi{
+    font-family: 'Teko', serif;
+    font-size: 130%;
+    font-weight: normal;
+    color: black;
+
+}
+
+.iletisim-alani-baslik-tazi-tipi{
+    font-family: 'Playfair Display', serif;
+    font-size: 130%;
+    font-weight: normal;
+    color: white;
+
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 700%;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+}
+h1.giris-baslik {
+    font-family: 'Teko', sans-serif;
+    font-size: 550%;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+}
+h1.giris-yapildi {
+    font-family: 'Teko', sans-serif;
+    font-size: 600%;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+}
+h1.iletisim-baslik {
+    font-family: 'Teko', sans-serif;
+    font-size: 550%;
+    line-height: .8;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+h1.slide-baslik {
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 400;
+    text-align: center;
+    color: #26336f;
+}
+
+h1.slide-baslik2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 500;
+    text-align: center;
+    color: #60322a;
+}
+h1.slide-baslik3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 500;
+    text-align: center;
+    color: #37100a;
+}
+h1.slide-baslik4 {
+    font-family: 'Teko', sans-serif;
+    font-size: 500%;
+    line-height: .8;
+    font-weight: 500;
+    text-align: center;
+    color: #1b2442;
+}
+h1.mesaj-baslik{
+    font-family: 'Teko', sans-serif;
+    font-size: 600%;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 400%;
+    color: black;
+    padding-top: 1rem;
+    line-height: 0.8;
+}
+
+h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 350%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h3.alt-baslik{
+    font-family: 'Teko', sans-serif;
+    font-size: 350%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h3.alt-baslik2{
+    font-family: 'Teko', sans-serif;
+    font-size: 350%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h3.alt-baslik3{
+    font-family: 'Teko', sans-serif;
+    font-size: 350%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: #8c8c8c;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h3.alt-baslik4{
+    font-family: 'Teko', sans-serif;
+    font-size: 350%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+h3.card-baslik{
+    font-family: 'Teko', sans-serif;
+    font-size: 280%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h3.islem-basarili-yazi-tipi{
+    font-family: 'Teko', sans-serif;
+    font-size: 280%;
+    line-height: 0.6;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+h4{
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+
+}
+h4.giris-yapildi-yazi-tipi{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 700%;
+    color: white;
+}
+
+h3.hosgeldiniz-yazi-tipi{
+    padding-top: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 350%;
+    font-weight: bolder;
+    color: white;
+}
+h3.hoscakalin-isim-yazi-tipi{
+    padding-top: 3rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 700%;
+    font-weight: normal;
+    color: white;
+}
+h1.hoscakal{
+    padding-top: 0;
+    font-family: 'Teko', serif;
+    font-size: 650%;
+    font-weight: normal;
+    color: white;
+}
+footer{
+    background-color: #04040d;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+
+}
+
+footer.blockquote-footer{
+    margin-left: 25rem;
+    padding: 0;
+}
+footer svg{
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: 0;
+}
+
+.img-boyut{
+    height: 100vh;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 230px;
+}
+
+div.tik-isareti{
+    height: 7rem;
+
+    color: #0fbf00;
+    text-align: center;
+    justify-content: center;
+}
+
+hr.iletisim-alani-cizgi-tipi{
+    width: 100%;
+    border-top: 0.1rem solid #ffffff;
+
+}
+
+@media (max-width: 900px) {
+    h1.mesaj-baslik {
+        font-size: 400%;
+    }
+    h1.mesaj-baslik {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 400%;
+    }
+    h1.mirasimiz-baslik{
+        font-size: 700%;
+    }
+
+    h4 {
+        font-size: 100%;
+    }
+    .btn-default {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    h1.mirasimiz-yazilar-baslik {
+        font-size: 400%;
+    }
+
+    h2{
+        font-size: 250%;
+    }
+
+    h3{
+        font-size: 250%;
+    }
+    .tablo-elemanlari-tazi-tipi{
+        font-size: 90%;
+    }
+    .liste-yazi-tipi{
+        font-size: 100%;
+    }
+    .mirasimiz-soz{
+        font-size: 140%;
+    }
+    h3.yazilar-baslik{
+        font-family: 'Teko', sans-serif;
+        font-size: 400%;
+
+    }
+    h3.yazilar-alt-baslik{
+        font-size: 300%;
+    }
+
+
+    p{
+        font-size: 100%;
+    }
+    div.mirasimiz-yazilar{
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .liste-yazi-tipi{
+        font-size: 90%;
+    }
+    p{
+        font-size: 80%;
+    }
+}
+@media (max-width: 770px) {
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+}
+
+

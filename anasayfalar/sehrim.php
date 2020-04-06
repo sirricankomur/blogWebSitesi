@@ -117,6 +117,18 @@ html;
                         OKUMAK İÇİN TIKLA
                     </a></div>
             </div>
+            <div class="carousel-item" style="background-image: url(../img/cendere3.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="slide-baslik4">Cendere Köprüsü</h1>
+                    <hr class="bg-light">
+                    <h3 class="alt-baslik4">Cendere Köprüsü kimin adına dikilmiştir?</h3>
+                    <br>
+                    <a type="button" class="btn btn-slide4"
+                       href="../altsayfalar/cendere_koprusu.php">
+                        OKUMAK İÇİN TIKLA
+                    </a>
+                </div>
+            </div>
             <div class="carousel-item" style="background-image: url(../img/arsemia.jpg)">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="slide-baslik3">Arsemia Örek Yeri</h1>
@@ -125,18 +137,6 @@ html;
                     <br>
                     <a type="button" class="btn btn-slide3"
                        href="../altsayfalar/arsemia.php">
-                        OKUMAK İÇİN TIKLA
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item" style="background-image: url(../img/kahtaKalesi1.jpg)">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="slide-baslik4">Kahta Kalesi</h1>
-                    <hr class="bg-light">
-                    <h3 class="alt-baslik4">Kahta Kalesi kimler tarafından kullanıldı?</h3>
-                    <br>
-                    <a type="button" class="btn btn-slide4"
-                       href="../altsayfalar/kahta_kalesi.php">
                         OKUMAK İÇİN TIKLA
                     </a>
                 </div>

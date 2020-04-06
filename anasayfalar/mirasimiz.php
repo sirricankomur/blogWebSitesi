@@ -139,7 +139,7 @@ html;
             </div>
         </div>
         <div class="card col-sm-12 col-md-6 col-lg-4">
-            <img src="../img/cendere1.jpg" class="card-img-top card-resim" alt="Görüntü görüntülenemiyor!">
+            <img src="../img/cendere3.jpg" class="card-img-top card-resim" alt="Görüntü görüntülenemiyor!">
             <div class="card-body">
                 <h3 class="card-title card-baslik">Cendere Köprüsü</h3>
                 <p class="card-text"><span class="font-weight-bold">Cendere Köprüsü</span>, <span
